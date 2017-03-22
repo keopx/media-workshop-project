@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a3f9adba9bf9f0f56f643360f92c432",
-    "content-hash": "189f2f9deaec6131d4f1f09f41c9627f",
+    "hash": "25b175f640bb922179f8e966b6d8e1d4",
+    "content-hash": "b69eb750b3ef50cfc9d63a4d1512016a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1072,6 +1072,61 @@
             "time": "2016-11-05 10:46:44"
         },
         {
+            "name": "drupal/blazy",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/blazy",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "0502916f2cb5b6237f13e5216e12063b8d56ce42"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1485193983"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Gaus Surahman",
+                    "homepage": "https://www.drupal.org/u/gausarts",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://www.drupal.org/node/2663268/committers",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "Provides basic bLazy integration for lazy loading and multi-serving images.",
+            "homepage": "https://drupal.org/project/blazy",
+            "keywords": [
+                "Drupal",
+                "bLazy",
+                "lazyload"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/blazy",
+                "issues": "https://drupal.org/project/issues/blazy"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.0.0-rc16",
             "source": {
@@ -1513,7 +1568,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-1.0-alpha5.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha5",
                 "shasum": "c4687dd281c7726ed07379604e4c2d31259c7854"
             },
             "require": {
@@ -1596,7 +1651,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/embed-8.x-1.0-rc3.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc3",
                 "shasum": "9138d016313a47a52c6c9805fb7d034ff5105f3a"
             },
             "require": {
@@ -1657,7 +1712,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity-8.x-1.0-alpha4.zip",
-                "reference": null,
+                "reference": "8.x-1.0-alpha4",
                 "shasum": "c081d3757c159dfee74c9e5acb63bdee81c42e18"
             },
             "require": {
@@ -1716,7 +1771,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_browser-8.x-1.0-rc2.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc2",
                 "shasum": "7954668b9134a8ec2dac2604c482d6521e43ee91"
             },
             "require": {
@@ -1796,7 +1851,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/entity_embed-8.x-1.0-beta2.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta2",
                 "shasum": "21cdeb2b058efce461683aed9a8951053512dca7"
             },
             "require": {
@@ -1861,7 +1916,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta1",
                 "shasum": "185ffc28a7b68d19cce057855d1c111f1741a3ea"
             },
             "require": {
@@ -1923,7 +1978,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity-8.x-1.6.zip",
-                "reference": null,
+                "reference": "8.x-1.6",
                 "shasum": "86fd1478f2448c034660faa30ef34c0e8519fecb"
             },
             "require": {
@@ -2015,7 +2070,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity_image-8.x-1.2.zip",
-                "reference": null,
+                "reference": "8.x-1.2",
                 "shasum": "d02d1d793a50ea3b9cb5a3219472fdd27980f4f3"
             },
             "require": {
@@ -2076,7 +2131,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity_instagram-8.x-1.2.zip",
-                "reference": null,
+                "reference": "8.x-1.2",
                 "shasum": "1183314bbfed2dfeaeabdc7e970521b394c5e337"
             },
             "require": {
@@ -2133,7 +2188,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity_slideshow-8.x-1.2.zip",
-                "reference": null,
+                "reference": "8.x-1.2",
                 "shasum": "c9d49eb6be7de0ea8e500554b89842842287cd1f"
             },
             "require": {
@@ -2181,7 +2236,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/media_entity_twitter-8.x-1.3.zip",
-                "reference": null,
+                "reference": "8.x-1.3",
                 "shasum": "280406ba63e2c00befa9bb1434ad2d4d3113b239"
             },
             "require": {
@@ -2224,6 +2279,106 @@
             }
         },
         {
+            "name": "drupal/slick",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/slick",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "b649cb01b5238097f8da5fcecc9a599c9be0b11d"
+            },
+            "require": {
+                "drupal/blazy": "~1.0",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1486728784"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "arshadcn",
+                    "homepage": "https://www.drupal.org/user/571032"
+                },
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                }
+            ],
+            "description": "Slick carousel, the last carousel you'll ever need.",
+            "homepage": "https://drupal.org/project/slick",
+            "keywords": [
+                "Drupal",
+                "carousel",
+                "slideshow"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/slick",
+                "issues": "https://drupal.org/project/issues/slick"
+            }
+        },
+        {
+            "name": "drupal/slick_media",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/slick_media",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slick_media-8.x-1.0-rc1.zip",
+                "reference": null,
+                "shasum": "061addb670bc7af541b90880aac1c78da7c96812"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/media_entity_image": "*",
+                "drupal/slick": "*",
+                "drupal/video_embed_media": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1485194885"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gausarts",
+                    "homepage": "https://www.drupal.org/user/159062"
+                }
+            ],
+            "description": "Provides Slick carousel integration with Media entity.",
+            "homepage": "https://www.drupal.org/project/slick_media",
+            "support": {
+                "source": "http://cgit.drupalcode.org/slick_media"
+            }
+        },
+        {
             "name": "drupal/video_embed_field",
             "version": "1.4.0",
             "source": {
@@ -2234,7 +2389,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/video_embed_field-8.x-1.4.zip",
-                "reference": null,
+                "reference": "8.x-1.4",
                 "shasum": "7bf93a52e2e8d639b4dbefd65f0ee2b170d73f43"
             },
             "require": {
@@ -2275,6 +2430,48 @@
                 }
             ],
             "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
+            "homepage": "https://www.drupal.org/project/video_embed_field",
+            "support": {
+                "source": "http://cgit.drupalcode.org/video_embed_field"
+            }
+        },
+        {
+            "name": "drupal/video_embed_media",
+            "version": "1.4.0",
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/media_entity": "*",
+                "drupal/video_embed_field": "self.version"
+            },
+            "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1484253183"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "jec006",
+                    "homepage": "https://www.drupal.org/user/855980"
+                },
+                {
+                    "name": "plopesc",
+                    "homepage": "https://www.drupal.org/user/282415"
+                }
+            ],
+            "description": "Integrates video_embed_field with the media_entity module, creating a new media type tailored to display embedded videos. Useful for websites which are using the media suite of modules.",
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
                 "source": "http://cgit.drupalcode.org/video_embed_field"
